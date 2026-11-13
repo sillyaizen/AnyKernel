@@ -21,13 +21,10 @@ supported.vendorpatchlevels=
 '; } # end properties
 
 # shell variables
-block=boot;
-is_slot_device=1;
-ramdisk_compression=auto;
 
 # boot shell variables
-block=/dev/block/bootdevice/by-name/boot;
-IS_SLOT_DEVICE=0;
+BLOCK=boot;
+IS_SLOT_DEVICE=auto;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
 
